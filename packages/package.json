@@ -1,0 +1,35 @@
+{
+  "name": "@qumeleon/sparklines",
+  "version": "1.0.0",
+  "description": "Sparklines",
+  "type": "module",
+  "main": "dist/index.js",
+  "homepage": "https://github.com/Qumeleon/sparklines#README",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Qumeleon/sparklines"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "sparklines",
+    "sparkline",
+    "frontend",
+    "UI"
+  ],
+  "author": {
+    "name": "Rene Buhrs",
+    "email": "rene@qumeleon.com"
+  },
+  "contributors": [{
+    "name": "Rene Buhrs",
+    "email": "rene@qumeleon.com"
+  }, {
+    "name": "Joe Buhrs",
+    "email": "joe@qumeleon.com"
+  }],
+  "license": "MIT",
+  "types": "dist/index.d.ts"
+}

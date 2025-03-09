@@ -10,7 +10,7 @@ npm install @qumeleon/sparklines
 
 ### Line graph
 
-![](./packages/Examples/example_sparkline_graph.png)
+![](./Examples/example_sparkline_graph.png)
 
 ````javascript
 // create an element on your page which will contain the sparkline
@@ -35,7 +35,7 @@ myDiv.appendChild(sparkLine.render())
 
 ### Column chart
 
-![](./packages/Examples/example_sparkline_column_chart.png)
+![](./Examples/example_sparkline_column_chart.png)
 
 ```javascript
 const myDiv = document.createElement('div')
@@ -57,7 +57,7 @@ myDiv.appendChild(sparkLine.render())
 
 ### Win / Loss
 
-![](./packages/Examples/example_sparkline_win_loss.png)
+![](./Examples/example_sparkline_win_loss.png)
 
 ````javascript
 // create an element on your page which will contain the sparkline
@@ -82,7 +82,7 @@ myDiv.appendChild(sparkLine.render())
 
 ### Line graph with markers (dots)
 
-![](./packages/Examples/example_sparkline_graph-with-dots.png)
+![](./Examples/example_sparkline_graph-with-dots.png)
 
 ````javascript
 // create an element on your page which will contain the sparkline

@@ -1,0 +1,32 @@
+{
+  "name": "sparklines",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  },
+  "keywords": [
+    "sparklines",
+    "sparkline",
+    "frontend",
+    "UI"
+  ],
+  "author": {
+    "name": "Rene Buhrs",
+    "email": "rene@qumeleon.com"
+  },
+  "contributors": [{
+    "name": "Rene Buhrs",
+    "email": "rene@qumeleon.com"
+  }, {
+    "name": "Joe Buhrs",
+    "email": "joe@qumeleon.com"
+  }],
+  "license": "MIT"
+}
