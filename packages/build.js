@@ -9,7 +9,7 @@ import { build } from 'esbuild'
 //
 // npx dts-bundle-generator -o ./dist/index.d.ts index.ts
 //
-// npm publish
+// npm publish --access public
 
 const sharedConfig = {
   entryPoints: ["./index.ts"],
