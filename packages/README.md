@@ -82,7 +82,7 @@ myDiv.appendChild(sparkLine.render())
 
 ### Line graph with markers (dots)
 
-![](https://github.com/Qumeleon/sparklines/blob/main/packages/Examples/dots.png?raw=true)
+![](https://github.com/Qumeleon/sparklines/blob/main/packages/Examples/example_sparkline_graph-with-dots.png?raw=true)
 
 ````javascript
 // create an element on your page which will contain the sparkline
