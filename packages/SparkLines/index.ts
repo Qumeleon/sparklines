@@ -9,13 +9,22 @@ import { Bars } from './Bars'
 import { Lines } from './Lines'
 import { ISparkLinesProps } from './Settings/ISparkLinesSettings.ts'
 
+/**
+ * Values with a label
+ */
 type ILabeledValue = {
   label: string
   value?: number | string
 }
 
+/**
+ * Plain values, numbers or string, undefined can also be a value (which will cause e.g. gaps in a graph)
+ */
 type IPlainValue = number | string | undefined
 
+/**
+ * Values to use for SparkLine
+ */
 export type IValues = ILabeledValue[] | IPlainValue[]
 
 const WIN_VALUE = 1
