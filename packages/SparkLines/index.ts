@@ -18,7 +18,7 @@ type ILabeledValue = {
 }
 
 /**
- * Plain values, numbers or string, undefined can also be a value (which will cause e.g. gaps in a graph)
+ * Plain numeric values (either number or string types), undefined can also be a value (which will cause e.g. gaps in a graph)
  */
 type IPlainValue = number | string | undefined
 
