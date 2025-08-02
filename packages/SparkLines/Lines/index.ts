@@ -38,7 +38,7 @@ export class Lines extends Base {
     }
   }
 
-  // get the graph as a path consisting of lines wit fill
+  // get the graph as a path consisting of lines with fill
   private getLinesWithFill(points: IPoint[]): IPathProps {
     if (!this.settings.fill) {
       throw new Error('Fill is not specified')
