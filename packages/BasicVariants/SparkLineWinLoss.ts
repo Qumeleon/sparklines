@@ -6,10 +6,13 @@ import { SparkLine } from './SparkLine.ts'
  *
  * This is basically a bars SparkLine (column chart) with equal heights for win (positive value) and loss (negative value)
  *
+ * This is a convenience wrapper around the generic {@link SparkLines} class
  */
 export class SparkLineWinLoss extends SparkLine {
   /**
    * Create a new SparkLines win/loss chart
+   *
+   * This is a convenience wrapper around the generic {@link SparkLines} class
    *
    * @param settings - Settings for the win/loss graph
    * @param settings.width - Width of the graph

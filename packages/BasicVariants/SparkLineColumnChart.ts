@@ -4,10 +4,14 @@ import { SparkLine } from './SparkLine.ts'
 /**
  * Create a new SparkLines with bars, a column chart
  *
+ * This is a convenience wrapper around the generic {@link SparkLines} class
+ *
  */
 export class SparkLineColumnChart extends SparkLine {
   /**
    * Create a new SparkLines with bars, a column chart
+   *
+   * This is a convenience wrapper around the generic {@link SparkLines} class
    *
    * @param settings - Settings for the bars graph
    * @param settings.width - Width of the graph

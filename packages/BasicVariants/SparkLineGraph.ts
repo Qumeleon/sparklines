@@ -4,10 +4,14 @@ import { SparkLine } from './SparkLine.ts'
 /**
  * Create a new SparkLines, as a line graph
  *
+ * This is a convenience wrapper around the generic {@link SparkLines} class
+ *
  */
 export class SparkLineGraph extends SparkLine {
   /**
    * Create a new SparkLines, as a line graph
+   *
+   * This is a convenience wrapper around the generic {@link SparkLines} class
    *
    * @param settings - Settings for the line graph
    * @param settings.width - Width of the graph
