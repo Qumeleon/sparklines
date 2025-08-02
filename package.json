@@ -8,6 +8,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "typedoc": "^0.28.9",
+    "typedoc-plugin-markdown": "^4.8.0",
     "typescript": "~5.7.2",
     "vite": "^6.2.0"
   },
@@ -21,12 +23,15 @@
     "name": "Rene Buhrs",
     "email": "rene@qumeleon.com"
   },
-  "contributors": [{
-    "name": "Rene Buhrs",
-    "email": "rene@qumeleon.com"
-  }, {
-    "name": "Joe Buhrs",
-    "email": "joe@qumeleon.com"
-  }],
+  "contributors": [
+    {
+      "name": "Rene Buhrs",
+      "email": "rene@qumeleon.com"
+    },
+    {
+      "name": "Joe Buhrs",
+      "email": "joe@qumeleon.com"
+    }
+  ],
   "license": "MIT"
 }

@@ -1,0 +1,44 @@
+{
+  "plugin": ["typedoc-plugin-markdown"],
+  "entryPoints": ["./BasicVariants/SparkLineGraph.ts", "./BasicVariants/SparkLineColumnChart.ts", "./BasicVariants/SparkLineWinLoss.ts"],
+  "excludeNotDocumented": true,
+  "excludeNotDocumentedKinds": [
+    "Module",
+    "Namespace",
+    "Enum",
+    "EnumMember",
+    "Variable",
+    "Function",
+    "Class",
+    "Interface",
+    "Constructor",
+    "Property",
+    "Method",
+    "CallSignature",
+    "IndexSignature",
+    "ConstructorSignature",
+    "Accessor",
+    "GetSignature",
+    "SetSignature",
+    "TypeAlias",
+    "Reference"
+  ],
+  "outputs": [
+    {
+      "name": "html",
+      "path": "./docs_html_full_nav",
+      "options": {
+        "navigation": {
+          "includeCategories": true,
+          "includeGroups": true,
+          "excludeReferences": false,
+          "includeFolders": true
+        }
+      }
+    },
+    {
+      "name": "markdown",
+      "path": "./docs_markdown"
+    }
+  ]
+}
